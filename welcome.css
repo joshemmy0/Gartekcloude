@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: cursive;
+  font-family: comic sans, cursive;
   overflow-x: hidden;
 }
 
@@ -38,12 +38,31 @@ main {
 
 footer {
   margin-top: 3%;
-  padding-bottom: 2.5%;
+  padding-bottom: 1.5%;
+}
+footer div {
+  display: flex;
+  justify-content: space-center;
+  align-items: flex-center;
+}
+.fa-brands {
+  padding: 0 5%;
+  margin-bottom: 10%;
+  font-size: 2.5rem;
+}
+.fa-square-instagram {
+  color: orange;
+}
+.fa-x-twitter {
+  color: green;
+}
+.fa-linkedin {
+  color: purple;
 }
 
 @media only screen and (max-width: 518px) {
   header img {
-    height: 75vh;
+    height: 50vh;
   }
   footer {
     margin-top: 8%;
